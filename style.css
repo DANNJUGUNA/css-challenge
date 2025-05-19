@@ -159,3 +159,36 @@ body{
 .content-card>p{
   height: 4px;
 }
+.industry {
+  text-align: center;
+  padding: 2em;
+}
+
+.testimonials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 40px;
+}
+
+.testimonial {
+  margin-top: 3em;
+  width: 25%;
+  padding: 2em 3em 2em 3em;
+  border: rgb(99, 99, 99) 1px solid;
+}
+.testimonial> img{
+  width: 70%;
+  height: 70%;
+  margin-bottom: 12px;
+}
+.industry>h2{
+  margin-top: 3em;
+  font-weight: bolder;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.industry>p{
+font-size: 19px;
+}
