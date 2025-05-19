@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-image: url("/images/hero.png");
+    display: flex;
+    justify-content: space-around;
+    padding-top: 24px;
+    align-content:baseline;
+    padding-bottom: 24px;
+    color: white;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:30px;
+}
+.rightsection{
+    display: flex;
+    gap: 30px;
+}
+.rightsection >button{
+    border: none;
+    background: none;
+    margin-top: -4px;
+    color: white;
+}
+.rightsection >div{
+    background-color: blue;
+    padding: 4px 24px 4px 24px;
+    display: flex;
+    color: white;
+    gap: 10px;
+    border: none;
+    border-radius: 12px;
+    align-items: center;
+}
+.rightsection >div> ion-icon{
+ color: white;
+ font-size: 20px;
+}
