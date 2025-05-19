@@ -3,20 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container{
+     background: url('./images/hero.png') center center/cover no-repeat;
+}
 .header{
-    background-image: url("/images/hero.png");
+   
     display: flex;
     justify-content: space-around;
     padding-top: 24px;
     align-content:baseline;
     padding-bottom: 24px;
     color: white;
+    margin-bottom: 24px;
 }
 .menu{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap:30px;
+    align-items: baseline;
+}
+.menu>a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
 }
 .rightsection{
     display: flex;
@@ -27,10 +37,12 @@
     background: none;
     margin-top: -4px;
     color: white;
+    font-size: 20px;
 }
 .rightsection >div{
     background-color: blue;
     padding: 4px 24px 4px 24px;
+    font-size: 20px;
     display: flex;
     color: white;
     gap: 10px;
@@ -42,3 +54,45 @@
  color: white;
  font-size: 20px;
 }
+.hero {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.hero .overlay {
+  padding: 1em;
+  border-radius: 10px;
+}
+.hero .overlay>h1{
+    font-size: 45px;
+    font-weight: bolder;
+    margin-top: -24px;
+}
+.hero .overlay> p{
+    padding-top: 22px;
+    padding-bottom: 35px;
+}
+.hero-buttons .btn {
+  margin: 1em 1em;
+}
+.btn {
+  padding: 12px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+.btn-secondary {
+  border: white 1px solid;
+  color: white;
+}
+
