@@ -195,3 +195,14 @@ font-size: 19px;
 .stars{
  margin-top: 12px;
 }
+.logos {
+  margin-top: 10em;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  padding: 2em;
+}
+.logos> img{
+  width: 150px;
+  height: 150px;
+}
