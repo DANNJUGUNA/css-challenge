@@ -490,3 +490,65 @@ form>button{
     font-size: 16px;
     margin-bottom: 15px;
 }
+@media (max-width: 768px) {
+  .header, .features, .testimonials, .subs, .plans {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu, .rightsection {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .wrapper {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .wrapper > img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 1024px) {
+    .header, .subs {
+        flex-direction: column;
+        align-items: center;
+    }
+    .rightsection {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero .overlay h1 {
+        font-size: 2rem;
+    }
+    .feature-card,
+    .testimonial,
+    .prices,
+    .prices-standard {
+        width: 90%;
+        max-width: 100%;
+    }
+    .subs {
+        gap: 1em;
+    }
+    .input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .menu, .rightsection {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .btn {
+        width: 100%;
+    }
+    .logos img {
+        width: 80px;
+    }
+}
