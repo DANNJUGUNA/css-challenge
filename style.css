@@ -206,3 +206,34 @@ font-size: 19px;
   width: 150px;
   height: 150px;
 }
+.subs{
+  margin-top: 3em;
+  margin-left: 8em;
+  margin-right: 8em;
+  padding: 2em 3em 2em 3em;
+  background-image: linear-gradient(to right, rgb(5, 5, 87), purple);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  gap: 19em;
+  color: white;
+}
+.details{
+  display: flex;
+  gap: 0;
+  background-color: white;
+}
+.subscribe {
+  padding: 14px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  font-size: 17px;
+  border: 1px white solid;
+}
+.input{
+  padding: 14px;
+  background-color: white;
+  border: 1px white solid;
+}
