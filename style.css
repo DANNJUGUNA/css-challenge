@@ -237,3 +237,125 @@ font-size: 19px;
   background-color: white;
   border: 1px white solid;
 }
+.pricing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.pricing h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.pricing p {
+    font-size: 18px;
+    color: grey;
+}
+
+.plans {
+    display: flex;
+    gap: 5px;
+    margin-top: 60px;
+}
+
+.prices {
+    background-color: white;
+    padding: 30px;
+    width: 300px;
+    height: 600px;
+    border: 1px solid #1E90FF;
+}
+
+.prices-standard {
+    background-color: #10103e;
+    padding: 30px;
+    width: 400px;
+    height: 600px;
+    border: none;
+    color: white;
+}
+
+.prices-standard .prices-header h3  {
+    color: white;
+}
+
+.prices-standard .prices-header p {
+    color: white;
+}
+
+
+.prices-standard .prices-info p {
+    color: white;
+}
+
+.prices-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.prices-header h3 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.prices-header p {
+    font-size: 18px;
+    color: #575353;
+}
+
+.price {
+    display: flex;
+    margin-top: 30px;
+    color: #1E90FF;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.dollar span {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 12px;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.prices-info p {
+    color: black;
+    margin-top: 20px;
+}
+
+.prices-info ion-icon {
+    margin-right: 10px;
+    color: #079727;
+    font-size: 24px;
+}
+#unchecked{
+    color: #4e524f;
+    font-size: 24px;
+}
+.prices-info button {
+    background-color: #1E90FF;
+    border: none;
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+}
+#standard{
+  margin-top: -12px;
+  background-color: rgb(43, 43, 43);
+  color: white;
+}
+#standard .prices-info> p{
+  color: white;
+}
